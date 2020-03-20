@@ -1,0 +1,15 @@
+  # this is a program to determine if the contract budget is worth our attention and  services.
+name =input("What is your name please?")
+name =input()
+print(f" Welcome {name} to Gemeaux World Global Resources Limited, we offer rear gem services")
+event = input(f" What is your event {name}?" )
+event = input()
+print(f"{event} is our specialty")
+budget = int(input(f"Please tell us your {event} event budget"))
+
+if (budget >= 250) :
+    print(f" {budget} is workable")
+else:
+    print(f" We are sorry the budget is below our scope, please add {250 - budget} and above, for us to consider, We are always at your service")
+
+
